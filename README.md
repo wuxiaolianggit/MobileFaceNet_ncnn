@@ -9,12 +9,12 @@ use NCNN to run a MobileFaceNet demo on Linux
 3.copy ncnn-master/src and ncnn-master/build/src/*.cpp and *.h to your project path replace mine<br>
 4.modify the opencv include&lib path and ncnn include path in the project file of Qt<br>
 
-INCLUDEPATH += /usr/local/opencv-2.4.13 \
-                /usr/local/opencv-2.4.13/include/opencv \
-                /usr/local/opencv-2.4.13/include/opencv2
-LIBS += /usr/local/opencv-2.4.13/lib/libopencv_*
-INCLUDEPATH += src \
-                src/layer
+INCLUDEPATH += /usr/local/opencv-2.4.13 \<br>
+                /usr/local/opencv-2.4.13/include/opencv \<br>
+                /usr/local/opencv-2.4.13/include/opencv2<br>
+LIBS += /usr/local/opencv-2.4.13/lib/libopencv_*<br>
+INCLUDEPATH += src \<br>
+                src/layer<br>
 
 5.build the project<br>
 6.put your model in the build_file/src/<br>
